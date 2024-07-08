@@ -50,7 +50,7 @@ void initSensors(boolean initSEN55) {
           }
       }
 
-      /** fixme: 超时处理 */
+      /** fixme: 超时处理  Timeout Processing */
       bool isDataReady = false;
       do {
         error = scd4x.getDataReadyFlag(isDataReady);
